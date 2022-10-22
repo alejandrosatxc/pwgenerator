@@ -8,14 +8,14 @@
 </head>
 
 <body class="bg-gray-300 flex flex-col items-center justify-center h-screen">
-    <div class="bg-white flex flex-col items-center justify-center h-screen rounded-xl h-1/2 w-3/4 shadow-xl">
-        <h1 class="text-3xl mx-4">Random Password Generator</h1>
-        <div class="flex items-center justify-center border-4 border-dashed border-red-600 rounded-xl my-8 w-3/4 h-1/2">
-            <p id="pwresult" class="text-2xl text-center break-all w-full p-2"></p>
+    <section class="bg-white flex flex-col items-center justify-center h-screen rounded-xl h-1/2 w-3/4 sm:w-4/5 shadow-xl">
+        <h1 class="text-3xl m-4 text-center">Random Password Generator ✨🦆</h1>
+        <div class="flex items-center justify-center border-4 border-dashed border-red-600 rounded-xl m-2 w-3/4 h-3/4">
+            <p id="pwresult" class="text-xl text-center break-all w-full p-2"></p>
         </div>
-        <button id="generate-btn" class="bg-red-400 rounded-xl w-40 p-2">Generate Password</button>
-    </div>
-    <div class="bg-white flex flex-col rounded-xl shadow-xl mt-8 h-auto w-3/4">
+        <button id="generate-btn" class="bg-red-400 rounded-3xl w-48 p-2 m-4">Generate Password 🎲</button>
+    </section>
+    <section class="bg-white flex flex-col rounded-xl shadow-xl mt-8 h-auto w-3/4 sm:w-4/5">
         <h3 class="text-lg text-center w-full mt-2 border-b-2">Options</h3>
         <div class="flex flex-row flex-wrap items-center p-2 justify-between">
             <div class="flex flex-row mx-2">
@@ -39,8 +39,7 @@
                 <input type="checkbox" id="special" name="special" checked>
             </div>
         </div>
-
-    </div>
+    </section>
 </body>
 <script src="script.js"></script>
 
