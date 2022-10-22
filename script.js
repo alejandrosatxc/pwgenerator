@@ -26,7 +26,7 @@ const generatePassword = (length) => {
     return result
 }
 
-const myfunc = () => {
+const createPassword = () => {
     const length = document.querySelector("#length").value
     const password = generatePassword(length)
     console.log(password)
@@ -34,4 +34,4 @@ const myfunc = () => {
     pwtextfield.innerHTML = password
 }
 
-btn.addEventListener('click', myfunc)
+btn.addEventListener('click', createPassword)
