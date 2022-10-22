@@ -1,7 +1,8 @@
 const btn = document.querySelector("#generate-btn")
 
 const generatePassword = (length) => {
-    //enfore max password length at 128 characters
+    //enfore min and max password length between 8-128 characters
+    if(length < 8)   length = 8 
     if(length > 128) length = 128
 
     //check values of options checkboxes
